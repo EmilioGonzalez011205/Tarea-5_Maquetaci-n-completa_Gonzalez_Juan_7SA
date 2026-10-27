@@ -1,0 +1,260 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: white;
+}
+.ancho{
+  max-width: 1200px;
+  margin: auto;
+}
+.margen{
+border: solid red 2px;
+}
+.centrar{
+  text-align: center;
+  margin: auto;
+}
+.rosa{
+  color: #ff3281;
+}
+.blanco{
+  color: #fff9f1;
+}
+.rosaf{
+  background-color: #ff3281;
+}
+.blancof{
+  background-color: #fff9f1;
+}
+hr{
+  height: 15px;
+}
+.contenedor_franja1{
+  background-color: #fff9f1;
+}
+.col_izqf1{
+  display: inline-block;
+  vertical-align: middle;
+  width: 10%;
+  text-align: left;
+  padding-left: 100px;
+}
+.col_derf1{
+  display: inline-block;
+  vertical-align: middle;
+  width: 89%;
+  text-align: right;
+  padding-right: 100px;
+}
+.contenedor_imagenesf1{
+  display: inline-block;
+  vertical-align: middle;
+  width: 30%;
+}
+.contenedor_imagenesf1 img{
+  margin-right: 20px;
+}
+.menu{
+  border: 2px solid black;
+  width: 1050px;
+}
+.menu a{
+  padding: 5px 75px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+.imagenfondo{
+  background-image: url(/imagenes/fondopiedras.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  color: white;
+}
+.texto1{
+  width: 45%;
+  padding-right: 25px;
+}
+
+.botones1{
+  width: 100%;
+  padding-top: 30px;
+}
+.boton_izq{
+  display: inline-block;
+  vertical-align: middle;
+}
+.boton_der{
+  display: inline-block;
+  vertical-align: middle;
+}
+.boton_izq a{
+  text-decoration: none;
+  color: white;
+  background-color: #ff3281;
+  padding: 10px 15px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+.boton_der a{
+  text-decoration: none;
+  color: white;
+  background-color:transparent;
+  padding: 10px 1px;
+   display: inline-block;
+  vertical-align: middle;
+  border: solid 1px #ff3281;
+}
+.contenedor_velas{
+  width: 1050px;
+  background-color: white;
+}
+.col_izqcv{
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  text-align: left;
+}
+.col_izqcv h2{
+  padding-top: 20px;
+}
+.col_izqcv p{
+  padding-top: 10px;
+  line-height: 2;
+}
+.col_dercv{
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+}
+.contenedor_aromas{
+  background-color: #fff9f1;
+}
+.titulo{
+  margin-bottom: 30px;
+}
+.col_izqca{
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+  padding-left: 70px;
+}
+.col_izqca img{
+  border-radius: 25px;
+  height: 350px;
+}
+.col_derca{
+  display: inline-block;
+  vertical-align: middle;
+  width: 49%;
+  padding-right: 130px;
+}
+.col_derca h2{
+  font-size: 16px;
+}
+.col_derca p{
+  font-size: 13px;
+  line-height: 2;
+  padding-bottom: 10px;
+}
+.contenedor_contacto{
+  width: 1050px;
+}
+.col_izqcc{
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  text-align: left;
+}
+.col_izqcc h2{
+ font-size: 30px;
+ padding-right: 40px;
+}
+.telefono{
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.correo{
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.col_izqcc h2{
+ font-size: 30px;
+ padding-right: 40px;
+}
+.col_dercc{
+display: inline-block;
+vertical-align: top;
+width: 49%;
+text-align: left;
+}
+.formatodif{
+  color: #ff3281;
+  font-weight:bold ;
+}
+.contenedor_formulario{
+  border: 3px solid #ff3281;
+  border-radius: 5px;
+  width: 84%;;
+  padding-left: 15px;
+}
+.titulo_form{
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.contenedor_formulario input{
+  width: 95%;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+}
+.contenedor_formulario button{
+  width: 27%;
+  padding: 6px 35px;
+  background-color: black;
+  color: white;
+  border: 1px solid;
+  margin-bottom: 10px;
+}
+.col_dercc h2{
+ font-size: 30px;
+ padding-right: 40px;
+}
+.titulo_coldercc{
+margin-bottom: 60px;
+}
+.col_dercc iframe{
+  width: 90% ;
+  height: 275px;
+  border-radius: 8px;
+}
+.franja_penultima{
+  background-color: #fff9f1;
+  padding: 25px 90px;
+}
+.imagen_izq{
+  display: inline-block;
+  vertical-align: middle;
+  width: 25%;
+  text-align: left;
+}
+.col_der{
+  display: inline-block;
+  vertical-align: middle;
+  width: 74%;
+  text-align: right;
+  padding-right: 50px;
+}
+.col_der p{
+  font-weight: bold;
+  color: #ff3281;
+}

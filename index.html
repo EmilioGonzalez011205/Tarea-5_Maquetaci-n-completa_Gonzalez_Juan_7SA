@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="esilo.css">
+  <script src="https://code.jquery.com/jquery-4.0.0.js"></script>
+</head>
+<body>
+  <hr class="ancho rosaf centrar">
+  <div class="contenedor_franja1 ancho">
+    <div class="col_izqf1">
+      <img src="/imagenes/logocabecera.jpg" alt="">
+    </div>
+    <div class="col_derf1">
+      <div class="contenedor_imagenesf1">
+        <img src="/imagenes/icono_facebook.jpg" alt="">
+        <img src="/imagenes/icono_instagram.jpg" alt="">
+        <img src="/imagenes/icono_twitter.jpg" alt="">
+      </div>
+    </div>
+    <div class="menu centrar">
+    <a href=""> Galeria</a>
+    <a href=""> Precios</a>
+    <a href=""> Contactanos</a>
+    <a href=""> Equipo</a>
+  </div>
+  </div>
+  <div class="imagenfondo ancho">
+    <h1 class="centrar">PROMOCIONES DE MARZO</h1>
+    <div class="texto1 centrar"><p>Se acerca la época de playa y por eso preparamos estas dos promociones ideales para ti.</p></div>
+    <div class="botones1 centrar">
+      <div class="boton_izq"><a href=""> Solicitar Promocion</a></div>
+      <div class="boton_der"><a href="">ver video</a></div>
+    </div>
+  </div>
+  <div class="contenedor_velas centrar">
+    <div class="col_izqcv">
+    <h2>Los productos Science of Beauty</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolore placeat explicabo, obcaecati odio quia temporibus hic! Officiis exercitationem modi placeat accusantium delectus esse aperiam quod, laboriosam possimus in repellendus mollitia enim nemo ut libero consectetur et inventore rerum tempore praesentium id repudiandae facere voluptatem? Ipsa, earum consequatur! Eius, voluptates?</p>
+    </div>
+    <div class="col_dercv">
+      <img src="/imagenes/fotovelas.jpg" alt="">
+    </div>
+  </div>
+  <div class="contenedor_aromas ancho">
+    <div class="titulo centrar"><h2>Buscamos talento para integrarlos a nuestro equipo</h2></div>
+    <div class="col_izqca">
+      <img src="/imagenes/fotoaromatizante.jpg" alt="">
+    </div>
+    <div class="col_derca">
+      <h2>Puesto de trabajo para Recepcionista</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorum, amet possimus nostrum, eos placeat in deleniti, blanditiis animi veniam dolor tempore perspiciatis modi autem.</p>
+      <h2>Puesto de trabajo para Masajista</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorum, amet possimus nostrum, eos placeat in deleniti, blanditiis animi veniam dolor tempore perspiciatis modi autem.</p>
+      <h2>Puesto de trabajo para Nutriologo</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorum, amet possimus nostrum, eos placeat in deleniti, blanditiis animi veniam dolor tempore perspiciatis modi autem.</p>
+    </div>
+  </div>
+  <div class="contenedor_contacto centrar">
+    <div class="col_izqcc">
+      <h2>Recibe noticias y promociones de SPA SALON</h2>
+      <p>Un lugar para concentirte de pies a cabeza</p>
+      <p>Servicio de salón estética y Spa personalizado</p>
+      <div class="telefono"><p><span class="formatodif">TELEFONO:</span> 999 420 8871</p></div>
+      <div class="correo"><p><span class="formatodif">CORREO:</span> info@spasalon.com</p></div>
+      <div class="contenedor_formulario">
+        <div class="titulo_form"><p>Tu dirección de correo electrónico</p></div>
+        <form action="correos.php" id="formulario">
+          <input type="text" id="email" name="email" placeholder="* tunombre@example.com">
+          <button type="button" id="boton_correo">Enviar</button>
+        </form>
+      </div>
+    </div>
+    <div class="col_dercc">
+      <div class="titulo_coldercc"><h2>Nuestras instalaciones</h2></div>
+        <iframe src="https://www.youtube.com/embed/w4qaODLR_Xg?si=_RFJOKuDO0M-oRYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="franja_penultima ancho centrar">
+    <div class="imagen_izq">
+      <img src="/imagenes/logo_spa.png" alt="">
+    </div>
+    <div class="col_der">
+      <p>Juan Emilio González Flores</p>
+      <p>Programación Web</p>
+      <p>7SA</p>
+    </div>
+  </div>
+  <hr class="ancho rosaf centrar">
+  <script>
+  $("#boton_correo").click(function(){
+    // Formato del correo.
+    let expresionCorreo = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    let correo = $("#email").val().trim();
+
+    // Validar vacío
+    if (correo === '' || !expresionCorreo.test(correo)) {
+      alert("Escribe un email válido");
+      $("#email").focus();
+      return false;
+    }
+
+    //Envío del formulario
+    alert("Correo enviado correctamente");
+    $("#formulario").submit();
+  });
+</script>
+</body>
+</html>
